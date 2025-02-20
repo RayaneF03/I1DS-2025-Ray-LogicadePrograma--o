@@ -76,9 +76,9 @@ console.log(
   "--------------------------------------------------------------------"
 );
 // 4.
-let numeros = [10, 20, 30, 40];
-numeros[10] + numeros[20] + numeros[30] + [40];
-
+let numeros = [1, 2, 3, 4];
+var soma = numeros[1] + numeros[2] + numeros[3] + [4];
+console.log(soma);
 console.log(
   "--------------------------------------------------------------------"
 );
