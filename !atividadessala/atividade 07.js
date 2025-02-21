@@ -19,5 +19,5 @@ for (let linha = 0; linha < matriz.length; linha++) {
     console.log(`matriz[${linha}][${coluna}] = ${matriz[linha][coluna]}`);
   }
 }
-console.log(matriz);
+console.log("Elementos da diagonal principal:");
 console.table(matriz);
