@@ -123,7 +123,7 @@ console.log(`Olá ${nome}! Seu banco: ${banco} | Agência: ${agencia} | Conta ${
 var saldo = 500;
 var contador = 0;
 while(contador <= 5){
-  let gasto = Math.random;
+  let gasto = Math.random()*100;
   saldo -= gasto
   contador++;
 }
