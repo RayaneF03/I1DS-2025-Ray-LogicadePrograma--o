@@ -91,3 +91,41 @@ console.table(entrada);
 console.log(
   "--------------------------------------------------------------------"
 );
+/***************************************************** 
+                Exercícios para fixação 
+*****************************************************/
+/* 
+estourando o cartão - versão while
+1. Crie uma variável e atribua o nome de uma pessoa; 
+2. Crie uma variável e atribua o nome de um banco; 
+3. Crie uma variável e atribua o número da agência; 
+4. Crie uma variável e atribua o número da conta; 
+5. Crie uma variável e atribua o saldo da conta; 
+6. exiba os dados e o saldo da conta; 
+7. Efetue e exiba 5 movimentações na conta; 
+8. exiba novamente os dados e o saldo da conta;
+*/
+console.log(
+  "--------------------------------------------------------------------"
+);
+// var nome = "Ismael";
+// var tentativa = "";
+
+// while (tentativa !== nome)
+//   tentativa = prompt("Digite seu nome!")
+//-----------------------------------------------------------------------
+var nome = prompt("Informe seu nome!"); // 1.
+var banco = prompt("Informe seu banco!");// 2.
+var agencia = prompt("Informe sua agência!");// 3.
+var conta = prompt("Informe sua conta!");// 4.
+var saldo = prompt("Solicite o saldo da conta!");// 5.
+console.log(`Olá ${nome}! Seu banco: ${banco} | Agência: ${agencia} | Conta ${conta} | Com o saldo de R$${saldo}`)// 6.
+var saldo = 500;
+var contador = 0;
+while(contador <= 5){
+  let gasto = Math.random;
+  saldo -= gasto
+  contador++;
+}
+console.log(saldo)
+console.log(`Olá ${nome}! Seu banco: ${banco} | Agência: ${agencia} | Conta ${conta} | Com o saldo de R$${saldo}`)// 8.
